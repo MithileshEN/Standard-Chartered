@@ -10,11 +10,11 @@ Faster Cheque Clearing: Bank handles large volumes of cheques in the clearing pr
 Solution
 ## Admin side Dashboard
 
-  -**Process the cheque electronically**
-  -**Automation of sign verification,MICR detection,pattern matching,OCR extraction,handwriting recognition,whitespace reduction**
-  -**Stats on Total cheques processed and inward and outward pending cheques**
-  -**View the online complaints filed by the bank customers**
-  -**Reply/respond the actions to those complaints**
+    -Process the cheque electronically
+    -Automation of sign verification,MICR detection,pattern matching,OCR extraction,handwriting recognition,whitespace reduction
+    -Stats on Total cheques processed and inward and outward pending cheques
+    -View the online complaints filed by the bank customers
+    -Reply/respond the actions to those complaints
 ## Customer side interface
       -Process the cheque electronically from anywhere using the webapplication
       -Perform sign verification
