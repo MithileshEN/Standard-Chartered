@@ -66,6 +66,8 @@ Find Contours: It finds contours in the reference image (ref) using the cv2.find
 This code snippet initializes a rectangular kernel and an empty list for storing the output of the check Optical Character Recognition (OCR) process. It also loads input images, grabs their dimensions, and extracts the bottom 20% of each image where the account information is typically located.
 
 ![Screenshot (149)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/5ffa9314-d6c1-41e9-b389-aa2bb19df57b)
+
+This code snippet initializes a rectangular kernel and an empty list for storing the output of the check Optical Character Recognition (OCR) process. It also loads input images, grabs their dimensions, and extracts the bottom 20% of each image where the account information is typically located.
 ![Screenshot (145)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/816e9398-1f09-4551-91f4-1a8aee365d0b)
 
 
