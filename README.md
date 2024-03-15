@@ -64,6 +64,8 @@ Find Contours: It finds contours in the reference image (ref) using the cv2.find
 ![Screenshot (150)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/8a7ff4ca-a85c-4143-9178-2e5b22719d01)
 ![Screenshot (149)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/5ffa9314-d6c1-41e9-b389-aa2bb19df57b)
 
+
+
 -**The bounding box coordinates (x, y, w, h) are computed using cv2.boundingRect(c).
 A green bounding box is drawn around the contour on the clone image using cv2.rectangle(). The rectangle's corners are defined by the top-left and bottom-right points of the bounding box.**
 -**The result is an image (clone) with green bounding boxes drawn around each detected contour, indicating the regions of interest (ROIs) in the reference image. This process is typically performed as a preprocessing step for template matching or character recognition tasks.
@@ -71,6 +73,34 @@ Then each character is displayed after conversion to a greyscale format in a ver
 -**Tesseract , pillow and other required libraries and packages are installed
 Import necessary packages for detecting texts in the cheque image. Load the image and then detect all the possible text components and print the same. The main components like Accoount number, SAAMP no, MICR, IFSC code , Cheque number  are stored in the csv and json format**
 ![Screenshot (145)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/816e9398-1f09-4551-91f4-1a8aee365d0b)
+
+This is the model developed for degtecting MICR from the cheque image and it also detects the components present in the cheque and stores it in csv, json format
+The first step invloves mounting the drive followed by installing python opencv.
+next  step is to import all the necessary pacakges for image processing and manipulation
+1. **Character Contour Iteration**:
+   - The function iterates over each character contour in the provided list until the end is reached.
+
+2. **Digit Extraction**:
+   - If a contour meets the specified minimum width and height criteria, it is considered a digit, and the corresponding region of interest (ROI) is extracted from the image.
+
+3. **Special Symbol Extraction**:
+   - If a contour does not meet the size criteria, it is considered a special symbol.
+   - The function retrieves the next two contours from the iterator to form the complete symbol.
+   - It computes the bounding box coordinates for the symbol based on its parts.
+
+4. **ROI and Location Storage**:
+   - Extracted ROIs and their corresponding bounding box coordinates are stored in separate lists (`rois` and `locs`, respectively).
+
+5. **Stop Iteration Handling**:
+   - The function gracefully handles the end of the contour iterator by catching the `StopIteration` exception.
+
+6. **Return**:
+   - Once all contours are processed, the function returns a tuple containing the list of extracted ROIs (`rois`) and their corresponding locations (`locs`).
+This code initializes a list of reference character names, representing digits and special symbols, each corresponding to specific information found on checks.
+the image is then loaded and then it is converted to grayscale. white characters with black bg
+Find Contours: It finds contours in the reference image (ref) using the cv2.findContours() function. Contours are detected based on the provided retrieval mode (cv2.RETR_EXTERNAL) and contour approximation method (cv2.CHAIN_APPROX_SIMPLE). The resulting contours are stored in refCnts, while the second return value is discarded (denoted by _).
+![Screenshot (142)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/e4c2aeb9-fb12-403e-a647-a43b6c544b49)
+![Screenshot (148)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/b2a2e4a7-7e9d-4f47-a9c3-ce109f828a20)
 
 
 
