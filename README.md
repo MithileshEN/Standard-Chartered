@@ -131,6 +131,9 @@ Find Contours: It finds contours in the reference image (ref) using the cv2.find
 
 ![WhatsApp Image 2024-03-15 at 16 40 03](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/fcdac0fd-f9f5-4057-b5bf-c4cc6e044095)
 
+![image](https://github.com/MithileshEN/Standard-Chartered/assets/87403588/db90f24d-e38a-4a4c-aa9f-03b1ba9bc6e2)
+
+
 
 
 ## FACE Authentication Login System for secure Login of Bank admins
