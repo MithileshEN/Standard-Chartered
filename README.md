@@ -50,9 +50,11 @@ Reply to a complaint
 ## MICR ENTIRE CODE
 https://colab.research.google.com/drive/1QxR_MfBY6JmD0A_A6R0vmxgGjIg9yOm7?authuser=0#scrollTo=n0loZB88JtKT
 
-
+## A dictionary named chars containing keys representing characters and corresponding values as Numpy arrays representing binary images
 
 ![Screenshot1](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/07932204-f803-4693-84e1-7254dab678cf)
+
+
 
 
 
