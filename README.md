@@ -54,18 +54,17 @@ https://colab.research.google.com/drive/1QxR_MfBY6JmD0A_A6R0vmxgGjIg9yOm7?authus
 
 ![Screenshot1](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/07932204-f803-4693-84e1-7254dab678cf)
 
-This code initializes a list of reference character names, representing digits and special symbols, each corresponding to specific information found on checks.
+-**This code initializes a list of reference character names, representing digits and special symbols, each corresponding to specific information found on checks.
 the image is then loaded and then it is converted to grayscale. white characters with black bg
-Find Contours: It finds contours in the reference image (ref) using the cv2.findContours() function. Contours are detected based on the provided retrieval mode (cv2.RETR_EXTERNAL) and contour approximation method (cv2.CHAIN_APPROX_SIMPLE). The resulting contours are stored in refCnts, while the second return value is discarded (denoted by _).
-
+Find Contours: It finds contours in the reference image (ref) using the cv2.findContours() function. Contours are detected based on the provided retrieval mode (cv2.RETR_EXTERNAL) and contour approximation method (cv2.CHAIN_APPROX_SIMPLE). The resulting contours are stored in refCnts, while the second return value is discarded (denoted by _).**
 ![Screenshot (146)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/4e0f2aed-46d0-4ac3-bbc9-1ba00e5a94d8)
 
-This code snippet initializes a rectangular kernel and an empty list for storing the output of the check Optical Character Recognition (OCR) process. It also loads input images, grabs their dimensions, and extracts the bottom 20% of each image where the account information is typically located.
+-**This code snippet initializes a rectangular kernel and an empty list for storing the output of the check Optical Character Recognition (OCR) process. It also loads input images, grabs their dimensions, and extracts the bottom 20% of each image where the account information is typically located.**
 
 ![Screenshot (150)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/8a7ff4ca-a85c-4143-9178-2e5b22719d01)
 ![Screenshot (149)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/5ffa9314-d6c1-41e9-b389-aa2bb19df57b)
 
-This code snippet initializes a rectangular kernel and an empty list for storing the output of the check Optical Character Recognition (OCR) process. It also loads input images, grabs their dimensions, and extracts the bottom 20% of each image where the account information is typically located.
+-**This code snippet initializes a rectangular kernel and an empty list for storing the output of the check Optical Character Recognition (OCR) process. It also loads input images, grabs their dimensions, and extracts the bottom 20% of each image where the account information is typically located.**
 ![Screenshot (145)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/816e9398-1f09-4551-91f4-1a8aee365d0b)
 
 
