@@ -64,7 +64,12 @@ Find Contours: It finds contours in the reference image (ref) using the cv2.find
 ![Screenshot (150)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/8a7ff4ca-a85c-4143-9178-2e5b22719d01)
 ![Screenshot (149)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/5ffa9314-d6c1-41e9-b389-aa2bb19df57b)
 
--**This code snippet initializes a rectangular kernel and an empty list for storing the output of the check Optical Character Recognition (OCR) process. It also loads input images, grabs their dimensions, and extracts the bottom 20% of each image where the account information is typically located.**
+-**The bounding box coordinates (x, y, w, h) are computed using cv2.boundingRect(c).
+A green bounding box is drawn around the contour on the clone image using cv2.rectangle(). The rectangle's corners are defined by the top-left and bottom-right points of the bounding box.**
+-**The result is an image (clone) with green bounding boxes drawn around each detected contour, indicating the regions of interest (ROIs) in the reference image. This process is typically performed as a preprocessing step for template matching or character recognition tasks.
+Then each character is displayed after conversion to a greyscale format in a vertical manner**
+-**Tesseract , pillow and other required libraries and packages are installed
+Import necessary packages for detecting texts in the cheque image. Load the image and then detect all the possible text components and print the same. The main components like Accoount number, SAAMP no, MICR, IFSC code , Cheque number  are stored in the csv and json format**
 ![Screenshot (145)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/816e9398-1f09-4551-91f4-1a8aee365d0b)
 
 
