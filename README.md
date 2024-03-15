@@ -1,27 +1,27 @@
-Standard-Chartered Hackathon:
+# Standard-Chartered Hackathon:
 
 **Live Links**
 
 - **Video Presentation:** 
 
 ![WhatsApp Image 2024-03-15 at 10 49 06_8eb09984](https://github.com/MithileshEN/Standard-Chartered/assets/87403588/26149caf-6bca-48b2-b84b-f482867871da)
-
+## Problem Statement
 Faster Cheque Clearing: Bank handles large volumes of cheques in the clearing process. The process involves many technical verifications including signature verification. Some of these steps are manual and require human intervention to complete the process. The current process requires the high human capital deployment and longer processing time.
 Solution
-Admin side Dashboard
+## Admin side Dashboard
       -Process the cheque electronically
       -Automation of sign verification,MICR detection,pattern matching,OCR extraction,handwriting recognition,whitespace reduction
       -Stats on Total cheques processed and inward and outward pending cheques
       -View the online complaints filed by the bank customers
       -Reply/respond the actions to those complaints
-Customer side interface
+## Customer side interface
       -Process the cheque electronically from anywhere using the webapplication
       -Perform sign verification
       -Raise the complaints on any cheque processing or other bank related issues
       -View the status of the complaints already sent
       -An intelligent system support(Chatbot) to address any queries
       -Chatbot transfers the queries those which it cannot answer and admin will reply to those queries
-Screenshots of the dashboard
+## Screenshots of the dashboard
 
 ![WhatsApp Image 2024-03-15 at 08 38 24_91972bc5](https://github.com/MithileshEN/Standard-Chartered/assets/87403588/243e9797-da49-4095-bf60-c02aaba782da)
 
@@ -46,7 +46,7 @@ Reply to a complaint
 
 
 
-MICR ENTIRE CODE
+## MICR ENTIRE CODE
 https://colab.research.google.com/drive/1QxR_MfBY6JmD0A_A6R0vmxgGjIg9yOm7?authuser=0#scrollTo=n0loZB88JtKT
 
 
