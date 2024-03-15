@@ -45,9 +45,28 @@ Reply to a complaint
 ![image](https://github.com/MithileshEN/Standard-Chartered/assets/87403588/25048198-551e-41a9-a6f5-c49a88d73c38)
 
 
+## 1.Segmentation:
+The uploaded image is loaded and converted into a NumPy array.
+The image is then transformed into a TensorFlow tensor for compatibility with the detection model.
+Object Detection:
 
+The detection model (detect_fn) is applied to the input image tensor, yielding detections, prediction dictionary, and shapes.
+Visualization Setup:
 
-## MICR ENTIRE CODE
+Label ID offset is defined, if needed, to adjust for zero-indexed labels.
+A copy of the original image is made to overlay detections for visualization.
+Detections Overlay:
+
+Bounding boxes, class labels, and confidence scores are overlaid onto the image using visualize_boxes_and_labels_on_image_array() function.
+If available, keypoints and their scores are also included in the visualization.
+Display and Saving:
+
+The annotated image, showing the detected objects, is displayed using Matplotlib.
+Additionally, the image with detections is saved as "prediction.jpg" for future reference.
+
+![WhatsApp Image 2024-03-15 at 16 11 25 (1)](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/d8187910-693e-4640-b3bf-a47fa7e22031)
+
+## 2.MICR ENTIRE CODE
 https://colab.research.google.com/drive/1QxR_MfBY6JmD0A_A6R0vmxgGjIg9yOm7?authuser=0#scrollTo=n0loZB88JtKT
 
 ## A dictionary named chars containing keys representing characters and corresponding values as Numpy arrays representing binary images
