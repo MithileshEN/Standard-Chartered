@@ -124,7 +124,12 @@ Find Contours: It finds contours in the reference image (ref) using the cv2.find
 
 ## 3)OCR
 ![WhatsApp Image 2024-03-15 at 16 39 31](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/617cb365-bc92-471c-a866-4935aaa2d671)
-![Uploading WhatsApp Image 2024-03-15 at 16.39.53.jpeg…]()
+
+![WhatsApp Image 2024-03-15 at 16 40 09](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/29a47b96-d64e-45f6-adde-d25522c5c48f)
+
+![WhatsApp Image 2024-03-15 at 16 40 18](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/b18201bb-360b-421a-8fd4-e0c46ba34e65)
+
+![WhatsApp Image 2024-03-15 at 16 40 03](https://github.com/MithileshEN/Standard-Chartered/assets/102873408/fcdac0fd-f9f5-4057-b5bf-c4cc6e044095)
 
 
 
