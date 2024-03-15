@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Chat</h1>
+    </header>
+    <main>
+        <div id="chat-container">
+            <!-- Messages will be displayed here -->
+        </div>
+        <form id="message-form">
+            <input type="text" id="message-input" placeholder="Type your message...">
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    
+    <!-- JavaScript for handling chat functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const chatContainer = document.getElementById('chat-container');
+            const messageForm = document.getElementById('message-form');
+            const messageInput = document.getElementById('message-input');
+
+            // Function to display a message in the chat container
+            function displayMessage(message) {
+                const messageElement = document.createElement('div');
+                messageElement.innerText = message;
+                chatContainer.appendChild(messageElement);
+            }
+
+            // Event listener for form submission (sending a message)
+            messageForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent form submission
+                const message = messageInput.value.trim();
+                if (message !== '') {
+                    displayMessage('You: ' + message); // Display the sent message
+                    // You can send the message to the server here (e.g., using AJAX or WebSocket)
+                    messageInput.value = ''; // Clear the input field
+                }
+            });
+        });
+    </script>
+</body>
+</html>
