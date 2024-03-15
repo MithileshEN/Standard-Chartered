@@ -1,5 +1,9 @@
 Standard-Chartered Hackathon:
 
+**Live Links**
+
+- **Video Presentation:** 
+
 ![WhatsApp Image 2024-03-15 at 10 49 06_8eb09984](https://github.com/MithileshEN/Standard-Chartered/assets/87403588/26149caf-6bca-48b2-b84b-f482867871da)
 
 Faster Cheque Clearing: Bank handles large volumes of cheques in the clearing process. The process involves many technical verifications including signature verification. Some of these steps are manual and require human intervention to complete the process. The current process requires the high human capital deployment and longer processing time.
