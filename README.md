@@ -46,9 +46,8 @@ Reply to a complaint
 
 
 
-
-
-
+MICR ENTIRE CODE
+https://colab.research.google.com/drive/1QxR_MfBY6JmD0A_A6R0vmxgGjIg9yOm7?authuser=0#scrollTo=n0loZB88JtKT
 
 
 
